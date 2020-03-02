@@ -3,14 +3,11 @@
   font-weight: 700;
 }
 
-.container-fluid{
-  border: 1px solid black;
-  height: 200px;
-}
-
 [class*=col-]{
+
 }
 
+/*Navigation*/
 #start{
   background-color: #2c3e50;
   height: 100px;
@@ -26,4 +23,59 @@
   color: #fff;
   font-size: 16px;
   padding: 10px 12px;
+}
+
+/*Masthead*/
+#header{
+  background-color: #1abc9c;
+  height: 780px;
+  text-align: center;
+  color: white;
+}
+
+#header img{
+  height: 280px;
+  width: auto;
+  display: block;
+  margin: 180px auto 50px;
+}
+
+h1{
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 64px;
+}
+
+.navbar-fixed-top{
+  border-width: 0;
+}
+
+#header span{
+  font-size: 40px;
+}
+
+.dividersx, .dividerdx{
+  max-width: 150px;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.dividerdx{
+  margin: 20px 0px 20px 0px;
+}
+
+.dividersx{
+  margin: 20px 0px 20px 110px;
+}
+
+#stellina{
+  padding-top: 28px;
+}
+
+#header p{
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 30px;
 }
