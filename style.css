@@ -3,14 +3,6 @@
   font-weight: 700;
 }
 
-[class*=col-]{
-  border: 1px solid red;
-}
-
-.container, .container-fluid{
-
-}
-
 /*Divisori*/
 .linea{
   width: 115px;
@@ -260,4 +252,14 @@ footer i{
   border-radius: 100%;
   display: inline-block;
   padding-right: 5px;
+}
+
+/*Copyright Section*/
+
+.copyright{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 30px;
 }
